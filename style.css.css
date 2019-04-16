@@ -1,0 +1,193 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    }
+    ul{
+    padding: 0px important;
+    }
+    .menu-principal {
+    width: 100%;
+    background-color: pink;
+    height: 280px;
+    }
+    .main, .content{
+    margin: 30 auto;
+    width: 970px;
+    position: relative;
+    }
+    .logo{
+    float: left;
+    padding: 1px;
+    width: 70%;
+    }
+    
+    
+    .header-2{
+    background-color:aquamarine;
+    width: 1335px;
+    margin: 0 auto;
+    padding: 2px;
+    
+    }
+    .menu-urls{
+    height: 80px;
+    border-bottom: 10px solid cornsilk;
+    
+    }
+    .menu ul li{
+     display: inline-block;
+    color: black;
+    margin-left: 50px;
+    height: 40px;
+    }
+    .menu ul li:hover{
+    border-bottom: 3px dotted blue;
+    }
+    .menu ul li a:hover{
+    color: blue;
+    
+    }
+    .menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    }
+    .menu{
+    width: 60%;
+    
+    }
+    .busca{
+    text-align: center;
+    width: 11%;
+    float: right;
+    }
+    .busca input{
+    background-image: url("./lupa.png.png/");
+    background-repeat: no-repeat;
+    height: 36px;
+    padding:10px;
+    width: 150px;
+    margin-top: 1px;
+    border: 1px solid slategrey;
+    }
+    .col-100{
+    width:100%;
+    float: left;
+    position: relative;
+    }
+    .button.slick-prev{
+    font-size: 0px;
+    border:none;
+    width: 512px;
+    height: 512px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('./seta.png.png/');
+    top: 50%;
+    left: 0;
+    }
+    .button.slick-prev{
+    font-size: 10px;
+    border:none;
+    width: 512px;
+    height: 512px;
+    z-index: 9;
+    background-color: transparent;
+    position: relative;
+    background-image: url('./seta.png\ -\ Copia.png');
+    top: 50%;
+    right:10;
+    
+    }
+    .slick-initialized{
+        overflow: hidden;
+    }
+    .slick-dots li button{
+     font-size: 0px;
+     border: 2px solid floralwhite;
+     width: 26px;
+     height: 26px;
+     background: transparent;
+     border-radius: 50%;
+     cursor: pointer;
+    }
+    .slick-dots{
+        margin: 0 auto;
+        width: 50%;
+        position: relative;
+        left: 20%;
+        
+    }
+    li.slick-active button{
+        background: blue;
+    
+    }
+    .slick-dots li{
+        display: inline-block;
+        padding-left: 10px;
+    }
+    .texto-destaque{
+        text-align: center;
+    }
+    .texto-destaque strong{
+    color: rgb(30, 4, 51);
+    }
+    .texto-destaque h1{
+        text-transform: uppercase;
+        font-size: 30px;
+        color: rgb(30, 4, 51);
+    }
+    .texto-destaque p{
+        font-size: 20px;
+     color: rgb(30, 4, 51);
+    }
+    .col-3{
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 50%;
+        float: left;
+        position: relative;
+    }
+    .bloco-texto{
+        margin-top: 3em;
+    }
+    .texto-destaque h4{
+        text-transform: uppercase;
+        font-size: 50px;
+        color: rgb(216, 203, 203)
+    
+    }
+    .texto-destaque p1{
+        font-size: 20px;
+        color: slategrey;
+    }
+    .bloco-texto2{
+        margin-top: 3em;
+        
+        
+    
+    
+    }
+    .texto-destaque7{
+        width: 100%;
+    background-color:pink;
+    height: 60px;
+    margin: 0 auto;
+    }
+    .botao{
+        color:blue;
+        text-decoration: none;
+        padding: 10px 30px;
+        background-color: antiquewhite;
+        
+    }
+    .baixo{
+        padding-left: 50px;
+        padding-right: 5px;
+        width: 50%;
+        float: left;
+        position: absolute;
+    }
